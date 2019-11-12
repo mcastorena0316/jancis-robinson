@@ -1,9 +1,177 @@
-.nav-left {
+* {
+  font-family: 'Lato', 'sans-serif';
+}
+
+header {
+  width: 100%;
+}
+
+nav div.navbar-container {
+  margin: 0;
+}
+
+.navbar {
   background-color: #663d5e;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.toggle {
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #56334f;
+}
+
+.toggle i {
+  color: #baa0b6;
+  font-size: 23px;
+}
+
+.nav-left,
+.nav-right {
+  padding: 0;
+}
+
+.nav-left > a {
+  width: 115px;
+  height: 20px;
+  align-self: center;
+}
+
+.nav-right {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-right i {
+  font-size: 28px;
+  color: #baa0b6;
+}
+
+.nav-right a {
+  text-decoration-line: none;
+  text-transform: uppercase;
+  color: #baa0b6;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.nav-right button {
+  background-color: rgb(239, 229, 187);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin-right: 14px;
+  color: #663d5e;
+  font-size: 15px;
+}
+
+main {
+  background: url(https://www.jancisrobinson.com/profiles/jancisrobinson/themes/merlot_basic/images/optimized/main-bg.gif) repeat #f1f1f1;
+}
+
+.sign-up > div {
+  align-items: center;
+}
+
+.sign-up span i {
+  color: #c9c9c9;
+  font-size: 30px;
+}
+
+.sign-up h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3b363a;
+}
+
+form input {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #e1e5e6;
+  height: 38px;
+}
+
+form button {
+  height: 40px;
+  color: #663d5e;
+  background: #efe5bb;
+  font-weight: 400;
+  border-radius: 2px;
+  font-size: 14px;
+  border: none;
+}
+
+.main-title h4 {
+  color: #3b363a;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main-title div {
+  justify-content: flex-end;
+}
+
+.main-title div i {
+  font-size: 22px;
+}
+
+.main-title .twitter {
+  color: #1b95e0;
+}
+
+.main-title .comment {
+  color: rgb(172, 172, 172);
+}
+
+.main-title .facebook {
+  color: rgb(9, 30, 66); 
 }
 
 .main-article {
   background-image: url(https://www.jancisrobinson.com/sites/default/files/styles/article_highlighted/public/2019-10/6_arpepe_TERRITORIO.jpg?itok=AGdBwTpe);
   background-size: cover;
+  height: 320px;
+}
+
+.main-article-text {
+  background-color: white;
+  color: #663d5e;
+  text-decoration-line: none;
+}
+
+.main-article-text div p:first-child {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.main-article-text div h2 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.gradient {
+  z-index: 999;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.gradient::after {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(to bottom,rgba(251,251,251,0) 1%,rgba(251,251,251,0.02) 2%,#fbfbfb 64%);
+}
+
+.date,
+.main-article-text span {
+  display: none;
 }
 

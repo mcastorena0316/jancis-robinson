@@ -6,55 +6,66 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://rawcdn.githack.com/ermin-cahtarevic/deep-purple-framework/93f79638bab308dfdf922e172d4b29df72624eef/main.css">
+  <link rel="stylesheet" href="https://rawcdn.githack.com/ermin-cahtarevic/deep-purple-framework/8df68193b09b236fba1b313719839b77d812754e/main.css">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
-      <div class="container">
-        <div class= "row">
-          <div class="nav-left flex">
-            <i class="fa fa-bars"></i>
-            <a href="">
+      <div class="container navbar-container">
+        <div class= "row navbar">
+          <div class="nav-left col-6 flex">
+            <div class="toggle flex">
+              <i class="fa fa-bars"></i>
+            </div>
+            <a class="ml-3" href="">
               <img src="https://www.jancisrobinson.com/profiles/jancisrobinson/themes/merlot_basic/logo.svg" alt="jancisrobinson">
             </a>
           </div>
-          <div> 
-              <i class="fa fa-search"></i>
-              <a href="#">Login</a>
-              <button>Join</button>
+          <div class="nav-right col-6 flex"> 
+            <i class="fa fa-search"></i>
+            <a href="#">Login</a>
+            <button>Join</button>
           </div>
         </div>
       </div>
     </nav>
   </header>
   <main>
-    <section class="sign-up">
-      <i class="fa fa-envelope"></i>
-      <h3>Sign up to our weekly newsletter</h3>
-      <form action="">
-        <input type="email">
-        <button>Sign up</button>
+    <section class="sign-up mr-3 ml-3 mb-3 pt-3">
+      <div class="flex mb-2">
+        <span>
+          <i class="fa fa-envelope"></i>
+        </span>
+        <h3 class="inline-block pl-2">Sign up to our weekly newsletter</h3>
+      </div>
+      <form action="sign-up" class="row">
+        <input class="col-12 mb-2" type="email" placeholder="Email address">
+        <button class="col-12">Sign up</button>
       </form>
     </section>
-    <section>
-      <h4>Fine wine writing aplenty</h4>
-      <i class="fa fa-twitter"></i>
-      <i class="fa fa-comment"></i>
-      <i class="fa fa-facebook"></i>
+    <section class="row main-title p-2 mb-4">
+      <h4 class="col-6">Fine wine writing aplenty</h4>
+      <div class="col-6 flex">
+        <i class="fa fa-twitter twitter"></i>
+        <i class="fa fa-comment comment ml-2"></i>
+        <i class="fa fa-facebook facebook ml-2"></i>
+      </div>
     </section>
     <div class= "container">
       <div class= "row">
         <section class="row">
-            <a class="col-6 main-article" href="">
+            <a class="col-5 main-article" href="">
             </a>
-            <a class="col-6" href="">
-              <div>
-                <p>FREE FOR ALL</p>
-                <h2>Valtellina Night tickets on sale</h2>
-                <p>Hot on the heels of our very successful Greek Wine Night , we are now offering you a chance to sample another great collection of wines assembled by one of our expert enthusiasts. Ar Pe Pe's vineyards are pictured. Valtellina is a beautiful hidden corner in the mountainous north of Lombardy in Italy. Wine has been made here for at least 1,500 years, but owing to its isolated position just.</p>
-                <p>7 Nov 2019</p>
+            <a class="col-7 main-article-text pl-3" href="">
+              <div class="relative">
+                <p class="pt-3">FREE FOR ALL</p>
+                <h2 class="pt-3">Valtellina Night tickets on sale</h2>
+                <div class="gradient">
+                  <p>Hot on the heels of our very successful Greek Wine Night , we are now offering you a chance to sample another great collection of wines assembled by one of our expert enthusiasts. Ar Pe Pe's vineyards are pictured. Valtellina is a beautiful hidden corner in the mountainous north of Lombardy in Italy. Wine has been made here for at least 1,500 years, but owing to its isolated position just.</p>
+                </div>
+                <p class="date">7 Nov 2019</p>
                 <span>Walter Speller</span>
               </div>
             </a>
