@@ -305,3 +305,20 @@ form button {
   font-size: 16px;
   
 }
+
+.free-corner {
+  width: 0;
+  height: 0;
+  border-top: 80px solid #efe5bb;
+  border-bottom: 80px solid transparent;
+  border-left: 80px solid transparent;
+  position: absolute;
+  right: 15px;
+  z-index: 999;
+  
+}
+
+.free-corner span {
+  color: #663d5e;
+  font-size: 14px;
+}
