@@ -92,7 +92,6 @@ main {
 }
 
 form input {
-  padding: 10px;
   font-size: 15px;
   border: 1px solid #e1e5e6;
   height: 38px;
@@ -380,6 +379,13 @@ form button {
   letter-spacing: 0.42px;
 }
 
+.first-team,
+.second-team,
+.third-team,
+.fourth-team {
+  flex-wrap: wrap;
+}
+
 .latest-tweets h2 {
   color: #333;
   font-size: 25px;
@@ -465,6 +471,14 @@ footer li a:hover {
 
 @media only screen and (min-width: 1024px) {
 
+  main > * {
+    max-width: 1024px;
+  }
+
+  .main-wrapper {
+    margin: 0 auto;
+  }
+
   .hidden-menu {
     display: block;
   }
@@ -495,4 +509,42 @@ footer li a:hover {
     display: none;
   }
 
+  .main-article {
+    height: auto;
+  }
+
+  .corner {
+    right: 16px;
+  }
+
+  .tasting-article-1 {
+    height: auto;
+  }
+
+  .tasting-article-1 a {
+    box-shadow: none;
+  }
+
+  .first-text-info {
+    height: 73.5%;
+  }
+
+  .team h5 {
+    text-align: center;
+  }
+
+  footer ul {
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  .icon-container {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .row-footer {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 }
