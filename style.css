@@ -130,6 +130,27 @@ form button {
   color: rgb(9, 30, 66); 
 }
 
+.corner {
+  width: 0;
+  height: 0;
+  border-top: 80px solid #663d5e;
+  border-bottom: 80px solid transparent;
+  border-left: 80px solid transparent;
+  position: absolute;
+  right: 0;
+}
+
+.corner span {
+  color: #efe5bb;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: absolute;
+  top: -60px;
+  right: 0;
+  transform: rotate(45deg);
+}
+
 .main-article {
   background-image: url(https://www.jancisrobinson.com/sites/default/files/styles/article_highlighted/public/2019-10/6_arpepe_TERRITORIO.jpg?itok=AGdBwTpe);
   background-size: cover;
@@ -149,17 +170,17 @@ form button {
 
 .main-article-text div h2 {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 30px;
   font-weight: 400;
 }
 
-.gradient {
+.gradient p {
   z-index: 999;
-  max-height: 200px;
+  max-height: 100px;
   overflow: hidden;
 }
 
-.gradient::after {
+.gradient p::after {
   display: inline-block;
   content: '';
   position: absolute;
@@ -168,6 +189,12 @@ form button {
   width: 100%;
   left: 0;
   background: linear-gradient(to bottom,rgba(251,251,251,0) 1%,rgba(251,251,251,0.02) 2%,#fbfbfb 64%);
+}
+
+.gradient p {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 24px;
 }
 
 .date,
