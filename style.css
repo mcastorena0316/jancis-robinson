@@ -170,8 +170,9 @@ form button {
 
 .main-article-text div h2 {
   font-size: 22px;
-  line-height: 30px;
+  line-height: 32px;
   font-weight: 400;
+  width: 75%;
 }
 
 .gradient p {
