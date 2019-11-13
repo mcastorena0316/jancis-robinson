@@ -39,6 +39,10 @@ nav div.navbar-container {
   align-self: center;
 }
 
+.hidden-menu {
+  display: none;
+}
+
 .nav-right {
   justify-content: space-between;
   align-items: center;
@@ -459,3 +463,36 @@ footer li a:hover {
 }
 }
 
+@media only screen and (min-width: 1024px) {
+
+  .hidden-menu {
+    display: block;
+  }
+
+  .hidden-menu div{
+    align-items: center;
+    height: 60px;
+  }
+
+
+  .hidden-menu ul li a{
+    color: #baa0b6;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .hidden-menu ul li a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .hidden-menu ul li {
+    padding: 0 10px;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+}
