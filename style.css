@@ -259,6 +259,10 @@ form button {
  text-decoration-line: underline;
 }
 
+.wine-article {
+  box-shadow: 1px 3px 2px -2px #9b969a;
+}
+
 .try-free {
   background-color:rgb(102, 61, 94);
 }
@@ -426,3 +430,32 @@ footer li a:hover {
   color: #3f363e;
   font-size: 20px;
 }
+
+@media only screen and (min-width: 720px) {
+
+ .nav-right {
+   justify-content: flex-end;
+ }
+
+ .form-row {
+   flex-wrap: nowrap;
+ }
+
+ .sign-up h3 {
+   font-size: 17px;
+ }
+
+ .try-free {
+   margin: 0;
+   border: 15px solid #f1f1f1;
+}
+
+.tasting-article {
+  padding-right: 0;
+}
+
+.more-articles {
+  justify-content: center;
+}
+}
+
