@@ -322,3 +322,107 @@ form button {
   color: #663d5e;
   font-size: 14px;
 }
+
+.more-articles button {
+  color: #663d5e;
+  background-color: #efe5bb;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.42px;
+}
+
+.more-articles button:hover {
+  background-color: #ffec9e;
+  cursor: pointer;
+}
+
+.team h5 {
+  color: #9b969a;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+}
+
+.team a {
+  flex-direction: column;
+  align-items: center;
+  text-decoration-line: none;
+}
+
+.team a:hover {
+  text-decoration-line: underline;
+}
+
+.team a img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.team a img:hover {
+  transform: scale(1.01,1.01);
+  opacity: 0.9;
+}
+
+.team a p {
+  color: #663d5e;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+}
+
+.latest-tweets h2 {
+  color: #333;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+  line-height: 33px;
+  text-align: center;
+}
+
+.twitter-feed {
+  max-height: 500px;
+  max-width: 60%;
+  overflow: scroll;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #3f363e;
+  text-align: center;
+  color: #9b969a;
+}
+
+footer li a {
+  color: #9b969a;
+  text-decoration-line: none;
+}
+
+footer li a:hover {
+  color: white;
+  text-decoration-line: underline;
+}
+
+.icon-container {
+  justify-content: center;
+}
+
+.icon-container div {
+  background-color: #9b969a;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container div:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.icon-container i {
+  color: #3f363e;
+  font-size: 20px;
+}
