@@ -16,6 +16,8 @@ Clone of Jancis Robinson - Responsive Website
 
 URL to the live version of our project: [Jancis Robinson - Clone](https://raw.githack.com/mcastorena0316/jancis-robinson/developer-branch/index.html)
 
+URL to the repository of the cloned website: [Jancis Robinson - Github](https://github.com/mcastorena0316/jancis-robinson/tree/developer-branch)
+
 This a rebuild of Jancis Robinson's responsive website. The page we use for reference is [Jancis Robinson](https://www.jancisrobinson.com/)
 
 ### Built With
