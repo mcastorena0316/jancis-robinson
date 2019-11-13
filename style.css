@@ -203,3 +203,105 @@ form button {
   display: none;
 }
 
+.text-info {
+  background-color: white;
+}
+
+.tasting-article a  {
+ width: 100%;
+ text-decoration: none;
+ box-shadow: 1px 3px 2px -2px #9b969a;
+}
+
+.text-info p:first-child {
+  font-weight: 600;
+  font-size: 12px;
+  color: #663d5e;
+}
+
+.text-info h2 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #663d5e;
+}
+
+.text-info p:nth-child(3) {
+  font-size: 16px;
+  font-family: "EB Garamond",serif;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0px;
+  text-indent: 0px;
+  color: rgb(51, 51, 51);
+}
+
+.text-info p:nth-child(4) {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #663d5e;
+  font-weight: 200;
+}
+
+.text-info span {
+  color: #663d5e;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.tasting-article a img:hover {
+  opacity: 0.9;
+}
+
+.tasting-article a h2:hover {
+ text-decoration-line: underline;
+}
+
+.try-free {
+  background-color:rgb(102, 61, 94);
+}
+
+.try-free h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+}
+
+.try-free p,
+.try-free li {
+ display: block;
+ color: white;
+ font-weight: 100;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.03em;
+}
+
+.try-free ul {
+  width: 100%;
+}
+
+.try-free li {
+ list-style: inside;
+ list-style-type: disc;
+ display:list-item;
+}
+
+.try-free li:nth-child(5),
+.try-free li:nth-child(6) {
+  font-style: italic;
+}
+
+.try-free button {
+  background-color: #efe5bb;
+  color: #663d5e;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  
+}
