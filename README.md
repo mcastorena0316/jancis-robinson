@@ -14,7 +14,7 @@ Clone of Jancis Robinson - Responsive Website
 ## About The Project
 
 
-URL to the live version of our project: [Jancis Robinson - Clone](https://raw.githack.com/mcastorena0316/jancis-robinson/developer-branch/index.html)
+URL to the live version of our project: [Jancis Robinson - Clone](https://rawcdn.githack.com/mcastorena0316/jancis-robinson/a93213971491e6be7267497399b4e13ae9134eeb/index.html)
 
 This a rebuild of Jancis Robinson's responsive website. The page we use for reference is [Jancis Robinson](https://www.jancisrobinson.com/)
 
