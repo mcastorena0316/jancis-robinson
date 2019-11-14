@@ -455,7 +455,7 @@ footer {
   }
 
   .tasting-article {
-    padding-right: 0;
+    padding-left: 0;
   }
 
   .more-articles {
@@ -483,6 +483,10 @@ footer {
 
   .tasting-article-1 a {
     box-shadow: none;
+  }
+
+  .tasting-article {
+    padding-left: 16px;
   }
 
   .hidden-menu ul li a {
