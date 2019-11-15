@@ -1,0 +1,546 @@
+* {
+  font-family: 'Lato', Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+nav div.navbar-container {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #663d5e;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.toggle {
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #56334f;
+}
+
+.toggle i {
+  color: #baa0b6;
+  font-size: 23px;
+}
+
+.nav-left,
+.nav-right {
+  padding: 0;
+}
+
+footer li a {
+  color: #9b969a;
+  text-decoration-line: none;
+}
+
+.nav-left > a {
+  width: 115px;
+  height: 20px;
+  align-self: center;
+}
+
+.hidden-menu {
+  display: none;
+}
+
+.nav-right {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-right i {
+  font-size: 28px;
+  color: #baa0b6;
+}
+
+.nav-right a {
+  text-decoration-line: none;
+  text-transform: uppercase;
+  color: #baa0b6;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+form button {
+  height: 40px;
+  color: #663d5e;
+  background: #efe5bb;
+  font-weight: 400;
+  border-radius: 2px;
+  font-size: 14px;
+  border: none;
+}
+
+.nav-right button {
+  background-color: rgb(239, 229, 187);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin-right: 14px;
+  color: #663d5e;
+  font-size: 15px;
+}
+
+main {
+  background: url(https://www.jancisrobinson.com/profiles/jancisrobinson/themes/merlot_basic/images/optimized/main-bg.gif) repeat #f1f1f1;
+}
+
+.sign-up > div {
+  align-items: center;
+}
+
+.icon-container i {
+  color: #3f363e;
+  font-size: 20px;
+}
+
+.sign-up span i {
+  color: #c9c9c9;
+  font-size: 30px;
+}
+
+.sign-up h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3b363a;
+}
+
+form input {
+  font-size: 15px;
+  border: 1px solid #e1e5e6;
+  height: 38px;
+}
+
+.main-title h4 {
+  color: #3b363a;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main-title div {
+  justify-content: flex-end;
+}
+
+.main-title div i {
+  font-size: 22px;
+}
+
+.main-title .twitter {
+  color: #1b95e0;
+}
+
+.main-title .comment {
+  color: rgb(172, 172, 172);
+}
+
+.main-title .facebook {
+  color: rgb(9, 30, 66);
+}
+
+.corner {
+  width: 0;
+  height: 0;
+  border-top: 80px solid #663d5e;
+  border-bottom: 80px solid transparent;
+  border-left: 80px solid transparent;
+  position: absolute;
+  right: 0;
+}
+
+.corner span {
+  color: #efe5bb;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: absolute;
+  top: -60px;
+  right: 0;
+  transform: rotate(45deg);
+}
+
+.main-article {
+  background-image: url(https://www.jancisrobinson.com/sites/default/files/styles/article_highlighted/public/2019-10/6_arpepe_TERRITORIO.jpg?itok=AGdBwTpe);
+  background-size: cover;
+  height: 320px;
+}
+
+.main-article-text {
+  background-color: white;
+  color: #663d5e;
+  text-decoration-line: none;
+}
+
+.gradient p {
+  z-index: 999;
+  max-height: 100px;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 24px;
+}
+
+.try-free p,
+.try-free li {
+  display: block;
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.team a p {
+  color: #663d5e;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+}
+
+.text-info p:first-child {
+  font-weight: 600;
+  font-size: 12px;
+  color: #663d5e;
+}
+
+.text-info h2 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #663d5e;
+}
+
+.text-info p:nth-child(3) {
+  font-size: 16px;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+  text-indent: 0;
+  color: rgb(51, 51, 51);
+}
+
+.text-info p:nth-child(4) {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #663d5e;
+  font-weight: 200;
+}
+
+.try-free h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+}
+
+.main-article-text div p:first-child {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.latest-tweets h2 {
+  color: #333;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+  line-height: 33px;
+  text-align: center;
+}
+
+.main-article-text div h2 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  width: 75%;
+}
+
+.gradient p::after {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(251, 251, 251, 0) 1%, rgba(251, 251, 251, 0.02) 2%, #fbfbfb 64%);
+}
+
+.date,
+.main-article-text span {
+  display: none;
+}
+
+.text-info {
+  background-color: white;
+}
+
+.team a img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.team a img:hover {
+  transform: scale(1.01, 1.01);
+  opacity: 0.9;
+}
+
+.tasting-article a {
+  width: 100%;
+  text-decoration: none;
+  box-shadow: 1px 3px 2px -2px #9b969a;
+}
+
+.text-info span {
+  color: #663d5e;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.tasting-article a img:hover {
+  opacity: 0.9;
+}
+
+.tasting-article a h2:hover {
+  text-decoration-line: underline;
+}
+
+.wine-article {
+  box-shadow: 1px 3px 2px -2px #9b969a;
+}
+
+.try-free {
+  background-color: rgb(102, 61, 94);
+}
+
+.try-free ul {
+  width: 100%;
+}
+
+.try-free li {
+  list-style: inside;
+  list-style-type: disc;
+  display: list-item;
+}
+
+.try-free li:nth-child(5),
+.try-free li:nth-child(6) {
+  font-style: italic;
+}
+
+.try-free button {
+  background-color: #efe5bb;
+  color: #663d5e;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.free-corner {
+  width: 0;
+  height: 0;
+  border-top: 80px solid #efe5bb;
+  border-bottom: 80px solid transparent;
+  border-left: 80px solid transparent;
+  position: absolute;
+  right: 15px;
+  z-index: 999;
+}
+
+.free-corner span {
+  color: #663d5e;
+  font-size: 14px;
+}
+
+.more-articles button {
+  color: #663d5e;
+  background-color: #efe5bb;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.42px;
+}
+
+.more-articles button:hover {
+  background-color: #ffec9e;
+  cursor: pointer;
+}
+
+.team h5 {
+  color: #9b969a;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+}
+
+.team a {
+  flex-direction: column;
+  align-items: center;
+  text-decoration-line: none;
+}
+
+footer li a:hover {
+  color: white;
+  text-decoration-line: underline;
+}
+
+.team a:hover {
+  text-decoration-line: underline;
+}
+
+.first-team,
+.second-team,
+.third-team,
+.fourth-team {
+  flex-wrap: wrap;
+}
+
+.twitter-feed {
+  max-height: 500px;
+  max-width: 60%;
+  overflow: scroll;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #3f363e;
+  text-align: center;
+  color: #9b969a;
+}
+
+.icon-container {
+  justify-content: center;
+}
+
+.icon-container div {
+  background-color: #9b969a;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container div:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 720px) {
+  .nav-right {
+    justify-content: flex-end;
+  }
+
+  .form-row {
+    flex-wrap: nowrap;
+  }
+
+  .sign-up h3 {
+    font-size: 17px;
+  }
+
+  .try-free {
+    margin: 0;
+    border: 15px solid #f1f1f1;
+  }
+
+  .tasting-article {
+    padding-left: 0;
+  }
+
+  .more-articles {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main > * {
+    max-width: 1024px;
+  }
+
+  .main-wrapper {
+    margin: 0 auto;
+  }
+
+  .hidden-menu {
+    display: block;
+  }
+
+  .hidden-menu div {
+    align-items: center;
+    height: 60px;
+  }
+
+  .tasting-article-1 a {
+    box-shadow: none;
+  }
+
+  .tasting-article {
+    padding-left: 16px;
+  }
+
+  .hidden-menu ul li a {
+    color: #baa0b6;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .hidden-menu ul li a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .hidden-menu ul li {
+    padding: 0 10px;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .main-article {
+    height: auto;
+  }
+
+  .corner {
+    right: 16px;
+  }
+
+  .tasting-article-1 {
+    height: auto;
+  }
+
+  .first-text-info {
+    height: 73.5%;
+  }
+
+  .team h5 {
+    text-align: center;
+  }
+
+  footer ul {
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  .icon-container {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .row-footer {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
