@@ -2,6 +2,9 @@
 
 Clone of Jancis Robinson - Responsive Website
 
+<div align="center"><img src="images/jancis.jpg"></div>
+
+
 ## Table of Contents
 
 * [About the Project](#about-the-project)
